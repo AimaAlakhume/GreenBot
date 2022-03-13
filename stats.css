@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Raleway:wght@300&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Raleway;
+}
+main {
+    min-height: 100vh;
+    background-image: url('https://cdn.wallpapersafari.com/16/43/bCBZy2.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*background colour*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/*links in nav bar*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*colour of links on hover*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*color to the active link*/
+.topnav a.active {
+  background-color: #106617;
+  color: white;
+}
+
+
+.box1,.box2,.box3,.box4,.box5{
+    display: flex;
+    margin: 0 13px;
+    text-decoration: none;
+    background: rgb(87, 131, 15);
+    font-weight: bold;
+    font-size: 25px;
+    min-height: 20vh;
+    min-width: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    transition: 0.4s ease-in-out;
+
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover{   
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px rgb(3, 95, 26);
+    z-index: 1;
+}
+

@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Raleway:wght@300&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Raleway;
+}
+main {
+    min-height: 100vh;
+    background-image: url('https://youmatter.world/app/uploads/sites/2/2021/11/spencer-watson-dEOC8M_lmxI-unsplash1.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*background colour*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/*links in nav bar*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*colour of links on hover*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*color to the active link*/
+.topnav a.active {
+  background-color: #106617;
+  color: white;
+}
+
+.glass{
+    background: rgb(145, 145, 151);
+    min-height: 80vh;
+    width: 60%;
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 60;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+}

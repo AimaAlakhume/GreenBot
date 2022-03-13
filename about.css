@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Raleway:wght@300&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Raleway;
+    background-image: url('https://dakiniland.files.wordpress.com/2016/04/the-statue-of-liberty-and-manhattan-skyline-new-york-city-ny.jpg');
+}
+
+main {
+    min-height: 100vh;
+    display: list-item;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 0;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+}
+
+/*background colour*/
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /*links in nav bar*/
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /*colour of links on hover*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /*color to the active link*/
+  .topnav a.active {
+    background-color: #106617;
+    color: white;
+  }
+
